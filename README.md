@@ -23,7 +23,7 @@ The eye moves only when an action occurs else remains in an home position.
 The Wi-Fi module attached to the camera allows the user to stream the video anywhere.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/chandrasekarans/MechanicalEye/CAD_DESIGN.jpg/460/300">
+  <img width="460" height="300" src="https://github.com/chandrasekarans/MechanicalEye.git/CAD_DESIGN.jpg/460/300">
 </p>
 
 ![GitHub Logo](/CAD_DESIGN.jpg)
