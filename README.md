@@ -6,8 +6,8 @@ EyeSpy™ is a proposed new idea that tracks continuous motion detection and all
 
 <h2>SCOPE</h2>
 EyeSpy™ consists of four sensors, two each in horizontal and vertical direction having a coverage of 180-degree in both the axis. This design exhibits the following features:
-** The eye shall continuously monitor any object by its movement and follows the object until the object is out of sight or idle.
-** Whenever the object is out of sight or idle, the eye makes a move towards its home position.
+* The eye shall continuously monitor any object by its movement and follows the object until the object is out of sight or idle.
+* Whenever the object is out of sight or idle, the eye makes a move towards its home position.
 * The camera attached to the centre of the eye captures the image of the object being monitored by the eye.
 * The design allows the user to stream the video via wireless communication in any output terminal.
 * A combined HMI with team 1 which enables the user to stream the videos from the cameras at the same time.
@@ -20,7 +20,11 @@ The four sensors on each side continuously monitor the location and tracks an ob
 1.  Power efficient
 The eye moves only when an action occurs else remains in an home position.
 1.  Wireless and Real-time information
-The Wi-Fi module attached to the camera allows the user to stream the video anywhere*
+The Wi-Fi module attached to the camera allows the user to stream the video anywhere.
+
+<p align="center">
+  <img width="460" height="300" src="/CAD_DESIGN.jpg/460/300">
+</p>
 
 ![GitHub Logo](/CAD_DESIGN.jpg)
 
