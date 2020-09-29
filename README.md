@@ -22,7 +22,7 @@ The eye moves only when an action occurs else remains in an home position.
 1.  Wireless and Real-time information
 The Wi-Fi module attached to the camera allows the user to stream the video anywhere*
 
-![GitHub Logo](/CAD_Design.png)
+![GitHub Logo](/CAD_DESIGN.jPG)
 Format: ![Alt Text](url)
 
 
