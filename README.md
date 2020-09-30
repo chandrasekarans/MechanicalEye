@@ -11,7 +11,7 @@ EyeSpy™ consists of four sensors, two each in horizontal and vertical directio
 <li>Whenever the object is out of sight or idle, the eye makes a move towards its home position.</li>
 <li>The camera attached to the centre of the eye captures the image of the object being monitored by the eye.</li>
 <li>The design allows the user to stream the video via wireless communication in any output terminal.</li>
-<li>A combined HMI with team 1 which enables the user to stream the videos from the cameras at the same time.</li>
+<li>HMI that enables the user to stream the videos from the camera webserver.</li>
 </ul>
 <h3>BENEFITS</h3>
 EyeSpy is a security camera that can monitor the actions happening in a specific area. The design is a proposed new idea that can be used for both industrial and commercial
