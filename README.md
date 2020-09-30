@@ -16,13 +16,14 @@ EyeSpy™ consists of four sensors, two each in horizontal and vertical directio
 <h3>BENEFITS</h3>
 EyeSpy is a security camera that can monitor the actions happening in a specific area. The design is a proposed new idea that can be used for both industrial and commercial
 purposes.
+<ol>
 1. **Continuous tracking system**
 The four sensors on each side continuously monitor the location and tracks an object when detected.
 2. **Power efficient**
 The eye moves only when an action occurs else remains in an home position.
 3. **Wireless and Real-time information**
 The Wi-Fi module attached to the camera allows the user to stream the video anywhere.
-
+</ol>
 <p align="center">
   <img width="460" height="300" src="/CAD_DESIGN.jpg/460/300">
 </p>
