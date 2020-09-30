@@ -27,6 +27,8 @@ The Wi-Fi module attached to the camera allows the user to stream the video anyw
 
 ![GitHub Logo](/CAD_DESIGN.jpg) 
 
+![GitHub Logo](/block_diagram.png) 
+
 <h3>CODE</h3>
 /source_code.c - Source code!
 [GitHub](/source_code.c)
