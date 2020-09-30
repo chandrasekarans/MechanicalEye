@@ -28,8 +28,8 @@ The Wi-Fi module attached to the camera allows the user to stream the video anyw
 ![GitHub Logo](/CAD_DESIGN.jpg) 
 
 <h3>CODE</h3>
-http://github.com - Source code!
-[GitHub](http://github.com)
+https://github.com/chandrasekarans/MechanicalEye.git/source_code.c - Source code!
+[GitHub](https://github.com/chandrasekarans/MechanicalEye.git/source_code.c)
 
 
 
