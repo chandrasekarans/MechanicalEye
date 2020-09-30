@@ -6,22 +6,22 @@ EyeSpy™ is a proposed new idea that tracks continuous motion detection and all
 
 <h2>SCOPE</h2>
 EyeSpy™ consists of four sensors, two each in horizontal and vertical direction having a coverage of 180-degree in both the axis. This design exhibits the following features:
-<p>
-<p>• The eye shall continuously monitor any object by its movement and follows the object until the object is out of sight or idle.</p>
-<p>• Whenever the object is out of sight or idle, the eye makes a move towards its home position.</p>
-<p>• The camera attached to the centre of the eye captures the image of the object being monitored by the eye.</p>
-<p>• The design allows the user to stream the video via wireless communication in any output terminal.</p>
-<p>• A combined HMI with team 1 which enables the user to stream the videos from the cameras at the same time.</p>
-</p>
+<ul>
+<li>• The eye shall continuously monitor any object by its movement and follows the object until the object is out of sight or idle.</li>
+<li>• Whenever the object is out of sight or idle, the eye makes a move towards its home position.</li>
+<li>• The camera attached to the centre of the eye captures the image of the object being monitored by the eye.</li>
+<li>• The design allows the user to stream the video via wireless communication in any output terminal.</li>
+<li>• A combined HMI with team 1 which enables the user to stream the videos from the cameras at the same time.</li>
+</ul>
 <h3>BENEFITS</h3>
 EyeSpy is a security camera that can monitor the actions happening in a specific area. The design is a proposed new idea that can be used for both industrial and commercial
 purposes.
 <ol>
-<li>1. Continuous tracking system
+<li>Continuous tracking system
 The four sensors on each side continuously monitor the location and tracks an object when detected.</li>
-<li>2. Power efficient
+<li>Power efficient
 The eye moves only when an action occurs else remains in an home position.</li>
-<li>3. Wireless and Real-time information
+<li>Wireless and Real-time information
 The Wi-Fi module attached to the camera allows the user to stream the video anywhere.</li>
 </ol>
 
