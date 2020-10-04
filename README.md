@@ -43,10 +43,10 @@ The Wi-Fi module attached to the camera allows the user to stream the video anyw
 
 
 <h3>CODE</h3>
-Source code [This code was written in Mbed OS(RTOS)]
-(https://github.com/chandrasekarans/MechanicalEye/blob/9be13e6d6cf838ea48dd554bf19cd9a17931f546/source_code.c#L1)
-source code [Camera Web Server]
-https://github.com/chandrasekarans/MechanicalEye/blob/bcb64ebe1b1f592cb5f750c76d8823219ec1e11d/CameraWebServer/CameraWebServer.ino#L1
+<p>Source code [This code was written in Mbed OS(RTOS)]
+(https://github.com/chandrasekarans/MechanicalEye/blob/9be13e6d6cf838ea48dd554bf19cd9a17931f546/source_code.c#L1)</p>
+<p>Source code [Camera Web Server]
+https://github.com/chandrasekarans/MechanicalEye/blob/bcb64ebe1b1f592cb5f750c76d8823219ec1e11d/CameraWebServer/CameraWebServer.ino#L1</p>
 
 
 
