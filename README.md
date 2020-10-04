@@ -22,7 +22,10 @@ The system comprises of four motion detection sensors and two stepper motors.Two
 axis. Similarly, one motor drives the eye in horizontal axis and the other in vertical axis. Whenever a motion happens within the range of any four sensor. The sensor detects the motion and the position of the sensors drives the eye in the direction of motion with the aid of motors attached to it.
 </p>
 
-![GitHub Logo](/CAD_DESIGN.jpg) 
+![GitHub Logo](/CAD_DESIGN.jpg)
+
+<h5>HMI</h5>
+<p>The IP address of the ESP-32 cam is used by the user to stream the video in any output terminal. This gives the user real-time information about the events that is happening within the premises</p>
 
 <h4>BENEFITS</h4>
 EyeSpy is a security camera that can monitor the actions happening in a specific area. The design is a proposed new idea that can be used for both industrial and commercial
