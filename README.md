@@ -13,7 +13,18 @@ EyeSpy™ consists of four sensors, two each in horizontal and vertical directio
 <li>The design allows the user to stream the video via wireless communication in any output terminal.</li>
 <li>HMI that enables the user to watch live video stream from the camera webserver.</li>
 </ul>
-<h3>BENEFITS</h3>
+
+![GitHub Logo](/block_diagram.png) 
+
+<h3>OPERATIONAL OVERVIEW</h3>
+<p>
+The system comprises of four motion detection sensors and two stepper motors.Two sensors are attached in the horizontal axis and the rest two are attached in the vertical
+axis. Similarly, one motor drives the eye in horizontal axis and the other in vertical axis. Whenever a motion happens within the range of any four sensor. The sensor detects the motion and the position of the sensors drives the eye in the direction of motion with the aid of motors attached to it.
+</p>
+
+![GitHub Logo](/CAD_DESIGN.jpg) 
+
+<h4>BENEFITS</h4>
 EyeSpy is a security camera that can monitor the actions happening in a specific area. The design is a proposed new idea that can be used for both industrial and commercial
 purposes.
 <ol>
@@ -25,15 +36,6 @@ The eye moves only when an action occurs else remains in an home position.</li>
 The Wi-Fi module attached to the camera allows the user to stream the video anywhere.</li>
 </ol>
 
-![GitHub Logo](/block_diagram.png) 
-
-<h4>OPERATIONAL OVERVIEW</h4>
-<p>
-The system comprises of four motion detection sensors and two stepper motors.Two sensors are attached in the horizontal axis and the rest two are attached in the vertical
-axis. Similarly, one motor drives the eye in horizontal axis and the other in vertical axis. Whenever a motion happens within the range of any four sensor. The sensor detects the motion and the position of the sensors drives the eye in the direction of motion with the aid of motors attached to it.
-</p>
-
-![GitHub Logo](/CAD_DESIGN.jpg) 
 
 <h3>CODE</h3>
 /source_code.c - Source code!
