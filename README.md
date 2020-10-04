@@ -44,7 +44,7 @@ The Wi-Fi module attached to the camera allows the user to stream the video anyw
 
 <h3>CODE</h3>
 /source_code.c - Source code!
-[GitHub](/source_code.c)
+[GitHub](https://github.com/chandrasekarans/MechanicalEye/blob/9be13e6d6cf838ea48dd554bf19cd9a17931f546/source_code.c#L1)
 
 
 
