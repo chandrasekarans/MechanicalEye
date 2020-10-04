@@ -25,8 +25,6 @@ The eye moves only when an action occurs else remains in an home position.</li>
 The Wi-Fi module attached to the camera allows the user to stream the video anywhere.</li>
 </ol>
 
-![GitHub Logo](/CAD_DESIGN.jpg) 
-
 ![GitHub Logo](/block_diagram.png) 
 
 <h4>OPERATIONAL OVERVIEW</h4>
@@ -34,6 +32,9 @@ The Wi-Fi module attached to the camera allows the user to stream the video anyw
 The system comprises of four motion detection sensors and two stepper motors.Two sensors are attached in the horizontal axis and the rest two are attached in the vertical
 axis. Similarly, one motor drives the eye in horizontal axis and the other in vertical axis. Whenever a motion happens within the range of any four sensor. The sensor detects the motion and the position of the sensors drives the eye in the direction of motion with the aid of motors attached to it.
 </p>
+
+![GitHub Logo](/CAD_DESIGN.jpg) 
+
 <h3>CODE</h3>
 /source_code.c - Source code!
 [GitHub](/source_code.c)
