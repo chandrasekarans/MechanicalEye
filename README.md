@@ -27,6 +27,8 @@ axis. Similarly, one motor drives the eye in horizontal axis and the other in ve
 <h5>HMI</h5>
 <p>The IP address of the ESP-32 cam is used by the user to stream the video in any output terminal. This gives the user real-time information about the events that is happening within the premises</p>
 
+![GitHub Logo](/HMI.png)
+
 <h4>BENEFITS</h4>
 EyeSpy is a security camera that can monitor the actions happening in a specific area. The design is a proposed new idea that can be used for both industrial and commercial
 purposes.
