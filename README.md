@@ -44,15 +44,16 @@ The Wi-Fi module attached to the camera allows the user to stream the video anyw
 [a link](https://github.com/chandrasekarans/MechanicalEye/blob/9be13e6d6cf838ea48dd554bf19cd9a17931f546/source_code.c#L1)
 
 <h3>CODE</h3>
-The entire operation of the mechanical eye source code is available 
-[here](https://github.com/chandrasekarans/MechanicalEye/blob/9be13e6d6cf838ea48dd554bf19cd9a17931f546/source_code.c#L1). It was written in C++ with ARM compiler version 6 in Kiel IDE. 
+<p>The entire operation of the mechanical eye source code is available 
+[here](https://github.com/chandrasekarans/MechanicalEye/blob/9be13e6d6cf838ea48dd554bf19cd9a17931f546/source_code.c#L1)
+</p>
 
-To setup a video streaming web server with face recognition and detection source code is available 
+<p>To setup a video streaming web server with face recognition and detection source code is available 
 [here](https://github.com/chandrasekarans/MechanicalEye/blob/bcb64ebe1b1f592cb5f750c76d8823219ec1e11d/CameraWebServer/CameraWebServer.ino#L1)
+</p>
 
-
-Software Tools : Kiel IDE, Arduino IDE, Git, MBED OS(RTOS), Socket Programming(TCP/IP), Wi-Fi, Linux APIs
-Hardware Tools : Oscilloscope, Function Generator, PCBA
+<p>Software Tools : C/C++, Kiel IDE, Arduino IDE, ARM compiler version 6, Git, MBED OS(RTOS), Socket Programming(TCP/IP), Wi-Fi, Linux APIs</p>
+<p>Hardware Tools : Oscilloscope, Function Generator, PCBA</p>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
