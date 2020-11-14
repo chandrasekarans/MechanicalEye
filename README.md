@@ -45,10 +45,7 @@ The Wi-Fi module attached to the camera allows the user to stream the video anyw
 
 <h3>CODE</h3>
 The entire operation of the mechanical eye source code is available
-[here](https://github.com/chandrasekarans/MechanicalEye/blob/bcb64ebe1b1f592cb5f750c76d8823219ec1e11d/CameraWebServer/CameraWebServer.ino#L1)
-
-
-To setup a video streaming web server with face recognition and detection source code is available
+[here](https://github.com/chandrasekarans/MechanicalEye/blob/bcb64ebe1b1f592cb5f750c76d8823219ec1e11d/CameraWebServer/CameraWebServer.ino#L1) To setup a video streaming web server with face recognition and detection source code is available
 [here](https://github.com/chandrasekarans/MechanicalEye/blob/bcb64ebe1b1f592cb5f750c76d8823219ec1e11d/CameraWebServer/CameraWebServer.ino#L1)
 
 
