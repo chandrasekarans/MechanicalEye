@@ -41,8 +41,6 @@ The eye moves only when an action occurs else remains in an home position.</li>
 The Wi-Fi module attached to the camera allows the user to stream the video anywhere.</li>
 </ol>
 
-[a link](https://github.com/chandrasekarans/MechanicalEye/blob/9be13e6d6cf838ea48dd554bf19cd9a17931f546/source_code.c#L1)
-
 <h3>CODE</h3>
 
 The entire operation of the mechanical eye source code is available
@@ -54,9 +52,6 @@ To setup a video streaming web server with face recognition and detection source
 <p>Software Tools : C/C++, Kiel IDE, Arduino IDE, ARM compiler version 6, Git, MBED OS(RTOS), Socket Programming(TCP/IP), Wi-Fi, Linux APIs</p>
 <p>Hardware Tools : Oscilloscope, Function Generator, PCBA</p>
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 
