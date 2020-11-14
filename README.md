@@ -43,10 +43,15 @@ The Wi-Fi module attached to the camera allows the user to stream the video anyw
 
 
 <h3>CODE</h3>
-<p>Source code [This code was written in Mbed OS(RTOS)]
-  [here]: https://github.com/chandrasekarans/MechanicalEye/blob/9be13e6d6cf838ea48dd554bf19cd9a17931f546/source_code.c#L1</p>
+Source code [This code was written in Mbed OS(RTOS)]
+  [here]: https://github.com/chandrasekarans/MechanicalEye/blob/9be13e6d6cf838ea48dd554bf19cd9a17931f546/source_code.c#L1
 <p>Source code [Camera Web Server]
 https://github.com/chandrasekarans/MechanicalEye/blob/bcb64ebe1b1f592cb5f750c76d8823219ec1e11d/CameraWebServer/CameraWebServer.ino#L1</p>
+
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 
