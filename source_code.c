@@ -6,8 +6,9 @@
     Modified:   None
     ©Fanshawe College, 2020
 
-    Description: This program will control a unipolar stepper motor based on sensor's output.
-                    Stepper motor used: 28BYJ - 48(5VDC)
+    Description: This program will rotate the camera body based on motion dection i.e. control stepper motor based on sensor's output.
+                    Stepper motor used: 28BYJ - 48 (5VDC)
+                    Motion Sensor used: HCSR501 (3-20VDC)
     
 *************************************************************************/
 
@@ -26,25 +27,25 @@
 #define OUTOFRANGE      ((sensor1 == TRUE && sensor2 == TRUE) || (sensor1 == FALSE && sensor2 == FALSE))
 
 // Objects ===============================================================
-DigitalIn  sensor1(p26);
+DigitalIn  sensor1(p26);                    
 DigitalIn  sensor2(p30);
-DigitalIn  limitSW(p25,PullUp);
+DigitalIn  limitSW(p25,PullUp);             //limit switch will define motor home position to 0
 
-DigitalOut in1(p20);
-DigitalOut in2(p19);
-DigitalOut in3(p18);
-DigitalOut in4(p17);
+DigitalOut in1(p20);                        //Motor control digital input1 for Horizontal rotation
+DigitalOut in2(p19);                        //Motor control digital input2 for Horizontal rotation
+DigitalOut in3(p18);                        //Motor control digital input3 for Horizontal rotation
+DigitalOut in4(p17);                        //Motor control digital input4 for Horizontal rotation
 
-DigitalOut in5(p16);
-DigitalOut in6(p15);
-DigitalOut in7(p14);
-DigitalOut in8(p13);
+DigitalOut in5(p16);                        //Motor control digital input1 for Vertical rotation
+DigitalOut in6(p15);                        //Motor control digital input2 for Vertical rotation
+DigitalOut in7(p14);                        //Motor control digital input3 for Vertical rotation
+DigitalOut in8(p13);                        //Motor control digital input4 for Vertical rotation
 
-DigitalOut led1(LED1);
-DigitalOut led4(LED4);
+DigitalOut led1(LED1);                      //on-Board LED used for debugging purpose
+DigitalOut led4(LED4);                      //on-Board LED used for debugging purpose
 
-Serial pc(USBTX, USBRX);
-Timer timer1sec;
+Serial pc(USBTX, USBRX);                    //Serial communication used with 9600 Baud rate
+Timer timer1sec;                            //Timer is configured to 1 sec
 
 // Global Variables ========================================================
 typedef struct stepperMotor
@@ -137,7 +138,7 @@ void motorClockwise(void)
 {
     while(motor.frwdposition >= motor.currentPosition)
     {
-        in1 = 0;in2 = 0;in3 = 0;in4 = 0;
+        in1 = in2 = in3 = in4 = 0;
         motor.pattern = motorPattern[motor.patternCounter];
         motor.currentPosition += 0.175;         //32 steps * 6 = 192
         motor.patternCounter++;
@@ -173,7 +174,7 @@ void motorAntiClockwise(void)
 {
     while(motor.reversePosition <= motor.currentPosition)
     {
-        in1 = 0;in2 = 0;in3 = 0;in4 = 0;
+        in1 = in2 = in3 = in4 = 0;
         motor.pattern = motorPattern[motor.patternCounter];
         motor.currentPosition -= 0.175;         //32 steps * 6 = 192
         motor.patternCounter--;
