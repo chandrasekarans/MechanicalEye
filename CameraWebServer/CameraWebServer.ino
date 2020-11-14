@@ -1,20 +1,21 @@
+
+//*** esp_camera.ino ***
+/*************************************************************************
+    File Name:  esp_camera.ino
+    Author:     CSrinivasan
+    Date:       Mar 18th, 2020
+    Modified:   None
+    ©Fanshawe College, 2020
+    Description: This program will setup a video streaming web server with face recognition and detection with ESP 32 CAM.
+    
+*************************************************************************/
+
+// Preprocessor ============================================================
 #include "esp_camera.h"
 #include <WiFi.h>
-
-//
-// WARNING!!! Make sure that you have either selected ESP32 Wrover Module,
-//            or another board which has PSRAM enabled
-//
-
-// Select camera model
-//#define CAMERA_MODEL_WROVER_KIT
-//#define CAMERA_MODEL_M5STACK_PSRAM
 #define CAMERA_MODEL_AI_THINKER
 
-const char* ssid = "House LANister";
-const char* password = "Coldregion7";
-
-
+// Constants ===============================================================
 #if defined(CAMERA_MODEL_WROVER_KIT)
 #define PWDN_GPIO_NUM    -1
 #define RESET_GPIO_NUM   -1
@@ -76,8 +77,27 @@ const char* password = "Coldregion7";
 #error "Camera model not selected"
 #endif
 
+// Global Variables ========================================================
+const char* ssid = "House LANister";
+const char* password = "Coldregion7";
+
+// Function Prototype ========================================================
 void startCameraServer();
 
+// Functions ==============================================================
+
+/*** setup: ************************************************
+Author:     Csrinivasan
+Date:       Mar 18th, 2020      
+Modified:   None
+Desc:       This function will  
+            1) initilize serial communication with baud rate 115200 bps
+            2) configuration of GPIOs, Timer and clock frequency
+            4) Camera initialization
+            5) Wifi Connectivity and start camera web server with live video streaming.
+Input:      None
+Returns:    None
+*************************************************************************/
 void setup() {
   Serial.begin(115200);
   Serial.setDebugOutput(true);
