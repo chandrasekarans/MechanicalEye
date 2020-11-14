@@ -44,6 +44,7 @@ The Wi-Fi module attached to the camera allows the user to stream the video anyw
 [a link](https://github.com/chandrasekarans/MechanicalEye/blob/9be13e6d6cf838ea48dd554bf19cd9a17931f546/source_code.c#L1)
 
 <h3>CODE</h3>
+
 The entire operation of the mechanical eye source code is available
 [here](https://github.com/chandrasekarans/MechanicalEye/blob/bcb64ebe1b1f592cb5f750c76d8823219ec1e11d/CameraWebServer/CameraWebServer.ino#L1)
 
