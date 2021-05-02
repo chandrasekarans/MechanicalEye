@@ -1,7 +1,7 @@
 //*** motor_detection_test_1.1.c ***
 /*************************************************************************
     File Name:  motor_detection_test_1.1.c
-    Author:     CSrinivasan
+    Author:     Chandrasekaran Srinivasan
     Date:       Mar 18th, 2020
     Modified:   None
     ©Fanshawe College, 2020
@@ -64,7 +64,7 @@ char homeFlag = FALSE;
 // Functions ==============================================================
 
 /*** initialDelaySensors: ************************************************
-Author:     Csrinivasan
+Author:     Chandrasekaran Srinivasan
 Date:       Mar 18th, 2020      
 Modified:   None
 Desc:       This function will wait for 30 seconds until the PIR sensors
@@ -80,7 +80,7 @@ void initialDelaySensors(void)
 //eo initialDelaySensors:: ***********************************************
 
 /*** initializeSwitch: ******************************************************
-Author:     Csrinivasan
+Author:     Chandrasekaran Srinivasan
 Date:       Mar 18th, 2020      
 Modified:   None
 Desc:       When the motor hits the switch, the home position(0 degree) is defiend.
@@ -102,7 +102,7 @@ int initializeSwitch(void)
 //eo initializeSwitch:: ******************************************************
 
 /*** motorOperation: ******************************************************
-Author:     Csrinivasan
+Author:     Chandrasekaran Srinivasan
 Date:       Mar 18th, 2020      
 Modified:   None
 Desc:       Motor rotates based upon the given pattern.
@@ -127,7 +127,7 @@ void motorOperation(int pattern)
 }
 
 /*** motorClockwise: ******************************************************
-Author:     Csrinivasan
+Author:     Chandrasekaran Srinivasan
 Date:       Mar 18th, 2020      
 Modified:   None
 Desc:       Enabling and controlling the motor in clockwise direction
@@ -163,7 +163,7 @@ void motorClockwise(void)
 //eo motorClockwise:: ********************************************************
 
 /*** motorAntiClockwise: ***************************************************
-Author:     Csrinivasan
+Author:     Chandrasekaran Srinivasan
 Date:       Mar 18th, 2020      
 Modified:   None
 Desc:       Enabling and controlling the motor in anti-clockwise direction
@@ -194,7 +194,7 @@ void motorAntiClockwise(void)
 //eo motorAntiClockwise:: ***************************************************
 
 /*** motorHomePosition: ******************************************************
-Author:     Csrinivasan
+Author:     Chandrasekaran Srinivasan
 Date:       Mar 18th, 2020      
 Modified:   None
 Desc:       Initializing motor current position to home position(0)
@@ -210,7 +210,7 @@ void motorHomePosition(void)
 //eo motorHomePosition:: ***************************************************
 
 /*** homePosition: ********************************************************
-Author:     Csrinivasan
+Author:     Chandrasekaran Srinivasan
 Date:       Mar 18th, 2020      
 Modified:   None
 Desc:       Initializing motor current position to home position(0)
@@ -235,7 +235,7 @@ void homePosition(void)
 //eo homePosition:: ********************************************************
 
 /*** userMotorCtrlOperation: ************************************************
-Author:     Csrinivasan
+Author:     Chandrasekaran Srinivasan
 Date:       Mar 18th, 2020
 Modified:   None
 Desc:       Motor moves clockwise and anticlockwise based upon user input.
