@@ -6,7 +6,7 @@
     Modified:   None
     ©Fanshawe College, 2020
 
-    Description: This program will rotate the camera body based on motion dection i.e. control stepper motor based on sensor's output.
+    Description: This program will rotate the camera body based on motion detection i.e. control stepper motor based on sensor's output.
                     Stepper motor used: 28BYJ - 48 (5VDC)
                     Motion Sensor used: HCSR501 (3-20VDC)
     
